@@ -1,0 +1,162 @@
+#yamaura {
+    float: left;
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    pointer-events: auto;
+}
+
+#yamaomo {
+    float: left;
+    height: 150px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    pointer-events: auto;
+    margin-left: 13px;
+}
+
+#yama {
+    height: 200px;
+    width: 250px;
+    margin-top: 29px;
+}
+
+img {
+    width: 100px;
+    height: 150px;
+}
+
+#oki1,#oki2,
+#oki3,#oki4 {
+    float: right;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 100px;
+    height: 150px;
+    font-size: 80px;
+    text-align: center;
+    pointer-events: auto;
+}
+
+#bahuda {
+    clear: both;
+}
+
+#ba1,#ba2,
+#ba3,#ba4,
+#ba5,#ba6,
+#ba7 {
+    float: right;
+    width: 85px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 25px;
+    pointer-events: auto;
+    position: relative;
+    left: -15px;
+}
+
+.sentou {
+    margin-top: 0;
+}
+
+.naka {
+    margin-top: -133px;
+}
+
+.oki {
+    margin-top: 0;
+}
+
+body {
+    background-color: #008500;
+    background-image: url(../images/rogo.png);
+    background-position: center;
+    user-select: none;
+}
+
+#im {
+    position: absolute;
+    top: 220px;
+    left: 370px;
+    width: 500px;
+    user-select: none;
+}
+
+#clear {
+    height: 200px;
+    width: 600px;
+    display: none;
+}
+
+#yama, #bahuda, #im {
+    pointer-events: none;
+}
+
+input[value='譛蛻昴°繧�'] {
+    position: absolute;
+    bottom: 15px;
+    left: 11px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+input[value='繧ｿ繧､繝医Ν'] {
+    position: absolute;
+    bottom: 15px;
+    left: 295px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+input[value='閭梧勹螟画峩'] {
+    position: absolute;
+    bottom: 15px;
+    left: 105px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+a {
+    height: 22px;
+    width: 70px;
+    text-align: center;
+    background-size: 200% auto;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: gainsboro;
+    text-decoration: none;
+    position: absolute;
+    left: 200px;
+    bottom: 15px;
+    border:solid 3px silver;
+}
+
+input[type="button"],.ru-ru{
+    background-color:transparent;
+    padding: 2px;
+    border: 2px solid white;
+    color: white;
+    letter-spacing: 0.1em;
+    position: relative;
+    top: 50px;
+}
+
+input[type="button"]:hover,.ru-ru:hover{
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: 2px 2px black;
+    text-shadow: 2px 2px black;
+}
+

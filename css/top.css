@@ -1,0 +1,60 @@
+body {
+    background-color:rgb(11, 166, 11);
+    background-image: url(../images/rogo.png);
+    background-position: center;
+    user-select: none;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    letter-spacing: 15px;
+    margin: 90px 0;
+}
+
+a {
+    width: 180px;
+    text-align: center;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: solid 3px silver;
+    font-size: 30px;
+    background-image: linear-gradient(to right, rgb(247, 247, 247) 0%, rgb(240, 240, 240) 40%,
+                                      white 54%, rgb(255, 255, 255) 70%, rgb(255, 255, 255) 100%);
+    text-decoration: none;
+    position: absolute;
+    left: 600px;
+    transition: background 1s;
+    box-shadow: 0px 6px black;
+}
+
+#rule {
+    bottom: 250px;
+    left: 600px;
+}
+
+#name {
+    position: absolute;
+    bottom: 0;
+    left: 650px;
+}
+
+
+
+#title {
+    transition: transform 0.8s linear;
+    width: 500px;
+    margin-left: 450px;
+}
+
+
+a:hover {
+    background-position: right center;
+}
+
+a:active {
+    margin-top: 4px;
+    box-shadow: 0 5px black inset;
+}

@@ -1,0 +1,53 @@
+body {
+    background-color:green;
+    background-image: url(../images/rogo.png);
+    background-position: center;
+    user-select: none;
+}
+
+#setumei {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 1000px;
+    height: 500px;
+    color: white;
+    position: absolute;
+    left: 140px;
+    top: 150px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input[value="谺｡縺ｸ"],
+input[value="譛蛻昴∈"] {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    border-radius: 8px;
+}
+
+#clear {
+    width: 1000px;
+}
+
+#clear, #bahuda, #tehuda{
+    display: none;
+}
+
+input[type="button"]{
+    background-color:transparent;
+    padding: 5px;
+    border: 2px solid white;
+    color: white;
+    width: 80px;
+    text-align: center;
+}
+
+input[type="button"]:hover{
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: 2px 2px black;
+    text-shadow: 2px 2px black;
+}
+
+.top {
+    text-align: center;
+}
