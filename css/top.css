@@ -1,17 +1,24 @@
 body {
-    background-color:rgb(11, 166, 11);
-    background-image: url(../images/rogo.png);
-    background-position: center;
-    user-select: none;
+    background-color: rgb(11, 166, 11);  /* 背景色: 緑 */
+    background-image: url(../images/rogo.png);  /* 背景画像 */
+    background-position: center;  /* 背景画像を中央に配置 */
+    user-select: none;  /* ユーザーによるテキスト選択を無効化 */
+    display: flex;  /* フレックスボックスを有効化 */
+    flex-direction: column;  /* 子要素を縦方向に配置 */
+    justify-content: center;  /* 縦方向の中央揃え */
+    align-items: center;  /* 横方向の中央揃え */
+    height: 100vh;  /* 画面全体の高さに合わせる */
+    margin: 0;  /* デフォルトのマージンをリセット */
 }
 
-h1{
+h1 {
     text-align: center;
     color: white;
     font-size: 70px;
     letter-spacing: 15px;
     margin: 90px 0;
 }
+
 
 a {
     width: 180px;
@@ -24,29 +31,32 @@ a {
     background-image: linear-gradient(to right, rgb(247, 247, 247) 0%, rgb(240, 240, 240) 40%,
                                       white 54%, rgb(255, 255, 255) 70%, rgb(255, 255, 255) 100%);
     text-decoration: none;
-    position: absolute;
-    left: 600px;
+    position: relative;  /* 位置を相対的に設定 */
+    margin: 20px;  /* ボタン間の余白 */
     transition: background 1s;
     box-shadow: 0px 6px black;
 }
 
 #rule {
-    bottom: 250px;
-    left: 600px;
+    margin-top: 20px;
 }
 
 #name {
     position: absolute;
-    bottom: 0;
-    left: 650px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);  /* 左右の中央揃え */
+    font-size: 14px;
 }
 
 
 
 #title {
-    transition: transform 0.8s linear;
-    width: 500px;
-    margin-left: 450px;
+    display: flex;  /* flexを使って中央配置 */
+    justify-content: center;  /* 横方向中央揃え */
+    align-items: center;  /* 縦方向中央揃え */
+    width: 100%;  /* 幅を100%にすることで親要素いっぱいに配置 */
+    margin: 0;  /* マージンをリセット */
 }
 
 
