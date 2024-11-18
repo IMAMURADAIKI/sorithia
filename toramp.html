@@ -1,0 +1,61 @@
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ソリティア</title>
+    <link rel="stylesheet" href="css/toramp.css">
+</head>
+
+<body>
+
+    <div id="im"><img src="images/clear.png" id="clear"></div>
+
+    <div id="kumihuda">
+
+        <div id="oki1" ondragover="f_dragover(event)" ondrop="f_drop(event)" name="reset"></div>
+        <div id="oki2" ondragover="f_dragover(event)" ondrop="f_drop(event)" name="reset"></div>
+        <div id="oki3" ondragover="f_dragover(event)" ondrop="f_drop(event)" name="reset"></div>
+        <div id="oki4" ondragover="f_dragover(event)" ondrop="f_drop(event)" name="reset"></div>
+
+    </div>
+
+    <div id="yama">
+
+        <div id="yamaura"><img src="images/card_back.png"></div>
+        <div id="yamaomo"></div>
+
+    </div>
+
+    <div id="bahuda">
+
+        <div id="ba1" ondragover="f_dragover(event)" ondrop="f_drop(event)" name="reset"> </div>
+
+        <div id="ba2" ondragover="f_dragover(event)" ondrop="f_drop(event)" name="reset"> </div>
+
+        <div id="ba3" ondragover="f_dragover(event)" ondrop="f_drop(event)" name="reset"> </div>
+
+        <div id="ba4" ondragover="f_dragover(event)" ondrop="f_drop(event)" name="reset"> </div>
+
+        <div id="ba5" ondragover="f_dragover(event)" ondrop="f_drop(event)" name="reset"> </div>
+
+        <div id="ba6" ondragover="f_dragover(event)" ondrop="f_drop(event)" name="reset"> </div>
+
+        <div id="ba7" ondragover="f_dragover(event)" ondrop="f_drop(event)" name="reset"> </div>
+
+    </div>
+
+    <input type="button" value="リセット" onclick="reload()">
+
+    <input type="button" value="タイトル" onclick="location.href='index.html'">
+
+    <input type="button" value="ルール" onclick="showImage()">
+        <div id="imageContainer" style="display:none;">
+            <img src="images/rule.png" alt="ルール画像" id="ruleImage">
+        </div>
+
+</body>
+
+<script src="js/toramp.js"></script>
+
+</html>
